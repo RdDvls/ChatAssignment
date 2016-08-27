@@ -1,9 +1,5 @@
-import com.tiy.networking.ConnectionHandler;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -13,9 +9,9 @@ import java.net.Socket;
 public class Server {
     public void startServer(){
         try {
-            System.out.println("Starting server...");
-
-
+            System.out.println("{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}");
+            System.out.println("Welcome to Clay's Chat Thing");
+            System.out.println("{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}");
             ServerSocket serverListener = new ServerSocket(8005);
             System.out.println("Listener ready to accept connections");
             while (true) {
@@ -31,9 +27,3 @@ public class Server {
     }
 
 }
-//  while (true){
-//          ConnectionHandler handler = new ConnectionHandler(clientSocket);
-//          Thread handlerThread = new Thread(handler);
-//          handlerThread.start();
-////
-//          }

@@ -3,7 +3,7 @@
  */
 public class AssignmentRunner {
     public static void main(String[] args) {
-        System.out.println("Ooogity boogity");
+       // System.out.println("Ooogity boogity");
         Server myServer = new Server();
         myServer.startServer();
     }
